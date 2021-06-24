@@ -22,15 +22,13 @@ li{
 #section1{
     background-color: #F2F2F2;
     width: 65%;
-    height: 450px;
+    height: 500px;
     border-radius: 15px;
-    /*float: left;*/
 }
 
 #flex1{
     background-color: #F2F2F2;
     display: flex;
-    /*justify-content:space-around;*/
     flex-wrap: wrap;
 }
 
@@ -44,27 +42,30 @@ figcaption{
     background-color: white;
 }
 
-#flex2 img{
-    width: 115px;
-    height:125px;
-}
-
 #section2{
-    width: 20%;
-    height:600px;
+    width: 30%;
+    height:500px;
     background-color: #F2F2F2;
-    border-radius: 15px;
-    float: right;
-    
+    border-radius: 15px;    
 }
 
 #flex2{
     display: flex;
-    flex-direction: column;
-    justify-content:space-around;
-    float: right;
-    width:30%;
+    flex-wrap: wrap;
+    
 }
+
+#flex2 figure{
+    display:flex;
+}
+
+#flex2 img{
+    width: 100px;
+    height:110px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+
 
 #section3{
     height:600px;
