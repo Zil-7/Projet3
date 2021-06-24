@@ -22,21 +22,21 @@ li{
 #section1{
     background-color: #F2F2F2;
     width: 65%;
-    height: 600px;
+    height: 450px;
     border-radius: 15px;
     /*float: left;*/
 }
 
-#flex{
+#flex1{
     background-color: #F2F2F2;
     display: flex;
     /*justify-content:space-around;*/
     flex-wrap: wrap;
 }
 
-#flex img{
-    width: 250px;
-    height: 150px;
+#flex1 img{
+    width: 175px;
+    height: 125px;
     border-radius: 15px 15px 0px 0px;
 }
 
@@ -49,14 +49,14 @@ figcaption{
     height:125px;
 }
 
-/*#section2{
+#section2{
     width: 20%;
     height:600px;
     background-color: #F2F2F2;
     border-radius: 15px;
     float: right;
     
-}*/
+}
 
 #flex2{
     display: flex;
